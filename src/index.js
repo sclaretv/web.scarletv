@@ -18,6 +18,6 @@ function openEmail(){
     window.location.href = "mailto:s.claret.v@gmail.com";
 }
 
-/*emergence.init({
+emergence.init({
     container: window,
-});*/
+});
