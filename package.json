@@ -21,7 +21,6 @@
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.2",
-    "bootstrap-icons": "^1.5.0",
-    "emergence.js": "^1.1.2"
+    "bootstrap-icons": "^1.5.0"
   }
 }
