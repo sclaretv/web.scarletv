@@ -10,8 +10,15 @@ import AboutMe from './about-me.svg'
 
 document.getElementById("illustration-home").src=Home;
 document.getElementById("chart").src=Chart;
-document.getElementById("about-me").src=AboutMe;
+document.getElementById("aboutme").src=AboutMe;
+
+function loadPage() {
+    var element = document.getElementById("cntr");    
+    element.classList.remove("cntr");    
+  }
 
 function openEmail(){
     window.location.href = "mailto:s.claret.v@gmail.com";
 }
+
+setTimeout(loadPage, 2000);

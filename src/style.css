@@ -252,6 +252,20 @@ a:link, a:visited, a:hover, a:active {
     transition: all 1s ease;
 }
 
+.cntr{
+    opacity:0;
+}
+
+
+@media (max-width: 375px){
+
+    .ms-4 {
+        margin-left: 0.5rem !important;
+    }
+
+    
+}
+
 
 @media (max-width: 576px){
     
