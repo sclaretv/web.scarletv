@@ -206,7 +206,7 @@ a:link, a:visited, a:hover, a:active {
 
 .project-help{
     display: inline-block;
-    width: 60%;
+    width: 100%;
 }  
 
 .project-demo{
@@ -262,6 +262,10 @@ a:link, a:visited, a:hover, a:active {
 
     .home-text {
         text-align: center;
+    }
+
+    .ms-4 {
+        margin-left: 1.2rem !important;
     }
 
     

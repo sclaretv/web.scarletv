@@ -8,7 +8,6 @@ import Home from './home.svg'
 import Chart from './chart.svg'
 import AboutMe from './about-me.svg'
 
-
 document.getElementById("illustration-home").src=Home;
 document.getElementById("chart").src=Chart;
 document.getElementById("about-me").src=AboutMe;
