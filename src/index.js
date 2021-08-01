@@ -13,12 +13,12 @@ document.getElementById("chart").src=Chart;
 document.getElementById("aboutme").src=AboutMe;
 
 function loadPage() {
-    var element = document.getElementById("cntr");    
-    element.classList.remove("cntr");    
+    var element = document.getElementById("cargando");    
+    element.classList.add("d-none");    
   }
 
 function openEmail(){
     window.location.href = "mailto:s.claret.v@gmail.com";
 }
 
-setTimeout(loadPage, 2000);
+setTimeout(loadPage, 1000);
