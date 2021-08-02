@@ -109,6 +109,8 @@ body {
 
 .nav-link {
     color: rgba(0,0,0,.55);
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 
@@ -271,37 +273,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-@media (max-width: 375px){
-
-    .ms-4 {
-        margin-left: 0.5rem !important;
-    }
-
-    
-}
-
-
-@media (max-width: 576px){
-    
-    
-    #contact {
-        text-align: center;
-    }
-
-    .home-text {
-        text-align: center;
-    }
-
-    .ms-4 {
-        margin-left: 1.2rem !important;
-    }
-
-    
-}
-
 @media (max-width: 768px){
     .home-text, .project-title, .project-subtitle, #about-me {
-        text-align: center!important;
+        text-align: center !important;
     }
 
     #contact {
@@ -309,7 +283,7 @@ a:link, a:visited, a:hover, a:active {
     }
 
     .footer-text, .footer-nav {
-        justify-content: center!important;
+        justify-content: center !important;
     }
 
     .contact-label {
@@ -349,7 +323,73 @@ a:link, a:visited, a:hover, a:active {
     .navbar-brand-contact {
         padding: .3125rem 1rem;
     }
+
+    
+    .img-img2 {
+        padding: 7rem;
+    }
+
+
 }
+
+@media (max-width: 576px) {
+    
+    
+    #contact {
+        text-align: center;
+    }
+
+    .home-text {
+        text-align: center;
+    }
+
+    .ms-4 {
+        margin-left: 0.5rem !important;
+    }
+
+    .navbar-brand {
+        margin-right: 1rem !important;
+    }
+
+    .img-img2 {
+        padding: 7rem;
+    }
+
+    .ms-2 {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 400px){
+
+    #contact {
+        text-align: center;
+    }
+
+    .home-text {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin-right: 0rem !important;
+    }
+
+    .ms-4 {
+        margin-left: 0 !important;
+    }
+
+    .img-img2 {
+        padding: 6rem;
+    }
+}
+
+@media (max-width: 300px){
+
+    .img-img2 {
+        padding: 5rem;
+    }
+}
+
 
 
 @media (min-width: 769px){
@@ -408,6 +448,11 @@ a:link, a:visited, a:hover, a:active {
 
     .navbar-brand-contact {
         padding: .3125rem 1rem;
+    }
+
+    
+    .img-img2 {
+        padding: 7rem;
     }
 }
 
