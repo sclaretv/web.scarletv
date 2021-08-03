@@ -283,7 +283,8 @@ a:link, a:visited, a:hover, a:active {
     }
 
     .footer-text, .footer-nav {
-        justify-content: center !important;
+        justify-content: start !important;
+        text-align: left;
     }
 
     .contact-label {
@@ -358,6 +359,13 @@ a:link, a:visited, a:hover, a:active {
     .ms-2 {
         margin-left: 0 !important;
     }
+
+    .footer-text, .footer-nav {
+        justify-content: center !important;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+    
 }
 
 @media (max-width: 400px){
@@ -381,6 +389,18 @@ a:link, a:visited, a:hover, a:active {
     .img-img2 {
         padding: 6rem;
     }
+
+    .text-description-2 {
+        display: none;
+    }
+
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+
+    .icon-nav {
+        padding: 0;
+    }
 }
 
 @media (max-width: 300px){
@@ -388,6 +408,15 @@ a:link, a:visited, a:hover, a:active {
     .img-img2 {
         padding: 5rem;
     }
+
+    .img-description {
+        padding: 1rem;
+    }
+
+    #navbarNav {
+        display: none !important;
+    }
+
 }
 
 
