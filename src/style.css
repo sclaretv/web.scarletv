@@ -273,7 +273,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .home-text, .project-title, .project-subtitle, #about-me {
         text-align: center !important;
     }
@@ -283,8 +283,9 @@ a:link, a:visited, a:hover, a:active {
     }
 
     .footer-text, .footer-nav {
-        justify-content: start !important;
-        text-align: left;
+        justify-content: center !important;
+        text-align: center;
+        padding-top: 0.5rem;
     }
 
     .contact-label {
@@ -421,7 +422,7 @@ a:link, a:visited, a:hover, a:active {
 
 
 
-@media (min-width: 769px){
+@media (min-width: 768px){
     .home-name {    
         font-size: 3rem!important;
     }

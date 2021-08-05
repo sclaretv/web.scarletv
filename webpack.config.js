@@ -18,7 +18,9 @@ module.exports = {
             template: './src/index.html',
             favicon: './src/favicon.png',
         }),
-        new MiniCssExtractPlugin(),
+        new MiniCssExtractPlugin({
+            filename: '[name].[contenthash].css',
+        }),
     ],
     module: {
         rules: [
