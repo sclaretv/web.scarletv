@@ -51,6 +51,10 @@ body {
     color: white;
 }
 
+.btn-purple.btn-sm {
+    padding: 0.25rem 0.5rem !important;
+}
+
 .zoom:hover {
     transform: scale(1.1);
   
